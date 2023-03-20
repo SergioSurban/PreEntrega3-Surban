@@ -1,0 +1,44 @@
+// base
+@import url(./base/_colores.scss);
+@import url(./base/_listas.scss);
+@import url(./base/_maps.scss);
+@import url(./base/_variables.scss);
+// componentes
+@import url(./components/_header.scss);
+@import url(./components/_navbar.scss);
+.navbar-mia{
+    background-color: lightblue;
+    font-weight: 800 ;
+    font-family: Roboto;
+}
+.btn-mio:hover{
+    background-color: violet;
+    color: blue;
+}
+body{
+    
+    background-color: aquamarine;
+    background-repeat: no-repeat;
+}
+.img-mia{
+    margin-top: 0px;
+    padding: 15px;
+    width: 750px;
+    height: 600px;
+}
+.h1-mio{
+    margin-top: 40px;
+    padding: 15px;
+    font-family: Roboto;
+    font-size: x-large;
+    font-weight: bold;
+}
+.h5-mio{
+    background-color: aqua;
+    color: black;
+}
+.img-ctt{
+    width: 400px;
+    height: 250px;
+    margin-bottom: 250px;
+}
